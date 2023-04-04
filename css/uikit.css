@@ -13,7 +13,30 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
+
+/* flex */
+
+.d-flex {
+  display: flex;
+}
+
+/* flex */
+
+/* container */
+
+.container {
+  max-width: 1590px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* container */
+
+/* font-size */
 
 .f-size-60 {
   font-size: 60px;
@@ -29,6 +52,10 @@
   font-size: 30px;
 }
 
+/* font-size */
+
+/* button */
+
 .btn {
   border: 2px dashed #ffffff;
   gap: 10px;
@@ -37,4 +64,14 @@
   padding: 12px 12px 10px;
   font-size: 32px;
   line-height: 36px;
+}
+
+/* button */
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.text-align-center {
+  text-align: center;
 }
