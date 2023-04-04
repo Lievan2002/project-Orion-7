@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Lausanne";
+  src: url("Lausanne-Regular.woff2") format("woff2"),
+    url("Lausanne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lausanne", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.f-size-60 {
+  font-size: 60px;
+  line-height: 67px;
+}
+
+.f-size-25 {
+  font-size: 25px;
+  line-height: 140%;
+}
+
+.f-size-30 {
+  font-size: 30px;
+}
+
+.btn {
+  border: 2px dashed #ffffff;
+  gap: 10px;
+  border-radius: 8px;
+  color: #000000;
+  padding: 12px 12px 10px;
+  font-size: 32px;
+  line-height: 36px;
+}
