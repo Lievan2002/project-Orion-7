@@ -28,10 +28,9 @@
 /* container */
 
 .container {
-  max-width: 1590px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 40px;
 }
 
 /* container */
@@ -57,10 +56,22 @@
 /* button */
 
 .btn {
+  display: inline-block;
   border: 2px dashed #ffffff;
   gap: 10px;
   border-radius: 8px;
   color: #000000;
+  padding: 12px 12px 10px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.btn-orange {
+  display: inline-block;
+  border: 2px dashed #ffffff;
+  gap: 10px;
+  border-radius: 8px;
+  color: #fc7942;
   padding: 12px 12px 10px;
   font-size: 32px;
   line-height: 36px;

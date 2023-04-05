@@ -35,14 +35,6 @@
   margin-top: 60px;
 }
 
-.btn-header {
-  display: inline-block;
-}
-
-.btn-header:last-child {
-  color: #fc7942;
-}
-
 /* header */
 
 /* hero */
@@ -86,5 +78,46 @@
   max-width: 550px;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.numbers-card-wrap {
+  justify-content: center;
+}
+
+.numbers-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 2px;
+  margin-left: 50px;
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.numbers-card-title {
+  font-size: 60px;
+  line-height: 94px;
+  text-align: center;
+  background: linear-gradient(276.36deg, #5535d2 4.11%, #000000 59.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  flex: none;
+  order: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.numbers-card-subtitle {
+  font-size: 25px;
+  line-height: 140%;
+  text-align: center;
+  color: #131313;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.btn-numbers {
+  margin-top: 80px;
 }
 /* numbers */
