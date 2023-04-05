@@ -89,7 +89,7 @@
   background: rgba(255, 255, 255, 0.6);
   border-radius: 2px;
   margin-left: 50px;
-  border: 1px solid black;
+
   margin-bottom: 40px;
 }
 
@@ -118,6 +118,50 @@
 }
 
 .btn-numbers {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 /* numbers */
+
+/* discover */
+
+.discover {
+  margin-top: 190px;
+}
+
+.discover-title {
+  max-width: 1283px;
+}
+
+.discover-cards-wrap {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.discover-cards {
+  margin-left: 8px;
+}
+.discover-cards-bg-color {
+  background: #dbe8f1;
+}
+
+.title-discover-cards {
+  font-size: 40px;
+  line-height: 35px;
+  max-width: 197px;
+  text-align: start;
+  margin-right: 200px;
+  padding: 22px 0 19px 28px;
+}
+
+.discover-cards-img {
+  padding-right: 22px;
+}
+
+.subtitle-discover-cards {
+  opacity: 0.8;
+  max-width: 500px;
+  background: #dbe8f1;
+  padding: 29px 9px 32px 28px;
+}
+
+/* discover */
