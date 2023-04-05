@@ -132,27 +132,27 @@
   max-width: 1283px;
 }
 
-.discover-cards-wrap {
+.discover-card-wrap {
   margin-top: 100px;
   justify-content: center;
 }
 
-.discover-cards {
+.discover-card {
   margin-left: 8px;
 }
-.discover-cards-bg-color-start {
+.discover-card-bg-color-start {
   background: #dbe8f1;
 }
 
-.discover-cards-bg-color-center {
+.discover-card-bg-color-center {
   background: #e8e6d3;
 }
 
-.discover-cards-bg-color-end {
+.discover-card-bg-color-end {
   background: #c6b4d8;
 }
 
-.title-discover-cards {
+.title-discover-card {
   font-size: 40px;
   line-height: 35px;
   max-width: 197px;
@@ -161,22 +161,147 @@
   padding: 22px 0 19px 28px;
 }
 
-.discover-cards-img {
+.discover-card-img {
   padding-right: 22px;
 }
 
-.subtitle-discover-cards {
+.subtitle-discover-card {
   opacity: 0.8;
   max-width: 500px;
   background: #dbe8f1;
   padding: 29px 9px 32px 28px;
 }
 
-.discover-cards-bg-subtitle-center {
+.discover-card-bg-subtitle-center {
   background: #e8e6d3;
 }
 
-.discover-cards-bg-subtitle-end {
+.discover-card-bg-subtitle-end {
   background: #c6b4d8;
 }
 /* discover */
+
+/* cases */
+
+.cases {
+  margin-top: 170px;
+}
+
+.cases-card-wrap {
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.cases-card-wrap:last-child {
+  margin-top: 30px;
+}
+
+.cases-card {
+  padding-bottom: 35px;
+  margin-left: 15px;
+  box-shadow: 0px 10px 64px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.cases-card-logo-subtitle {
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+.cases-card-subtitle {
+  font-size: 16px;
+  max-width: 344px;
+  color: #131313;
+  opacity: 0.7;
+  padding-left: 30px;
+}
+
+.cases-card-title {
+  max-width: 545px;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+
+.cases-card-body-wrap {
+  padding-top: 40px;
+  padding-left: 15px;
+}
+
+.cases-card-body-wrap:last-child {
+  padding-top: 25px;
+}
+.cases-card-body {
+  background: rgba(128, 128, 128, 0.2);
+  border-radius: 2px;
+}
+
+.first-child {
+  margin-right: 115px;
+}
+
+.last-child {
+  margin-right: 100px;
+}
+
+.cases-card-body-text {
+  font-size: 42px;
+  line-height: 100%;
+  background: linear-gradient(276.36deg, #fc7942 4.11%, #ff4b00 59.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cases-card-body-subtitile {
+  font-size: 18px;
+  line-height: 140%;
+  color: #131313;
+}
+.cases-card-body-width {
+  max-width: 125px;
+}
+
+.cases-card-subtitle-symbiosis {
+  max-width: 360px;
+}
+
+.cases-card-logo-symbiosis {
+  background: #75fb4c;
+}
+
+.card-body-symbiosis {
+  margin-right: 14px;
+}
+
+.first-child-symbiosis {
+  margin-right: 150px;
+}
+
+.cases-card-body-symbiosis {
+  font-size: 13px;
+  line-height: 120%;
+  width: 179px;
+}
+
+.cases-card-subtitle-truepnl {
+  max-width: 275px;
+}
+
+.cases-card-title-truepnl {
+  max-width: 545px;
+}
+
+.first-child-truepnl {
+  margin-right: 120px;
+}
+
+.last-child-truepnl {
+  margin-right: 55px;
+}
+
+.cases-card-body-truepnl {
+  max-width: 106px;
+  line-height: 100%;
+}
+
+/* cases */
