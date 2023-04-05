@@ -70,6 +70,7 @@
 /* hero */
 
 /* numbers */
+
 .numbers {
   margin-top: 225px;
 }
@@ -305,3 +306,27 @@
 }
 
 /* cases */
+
+/* businesses */
+
+.businesses {
+  margin-top: 250px;
+  margin-bottom: 45px;
+}
+
+.businesses-body {
+  justify-content: center;
+}
+
+.businesses-subtitle {
+  font-size: 18px;
+  line-height: 140%;
+  color: #131313;
+  opacity: 0.8;
+  background: rgba(213, 201, 201, 0.6);
+  border-radius: 2px;
+  max-width: 170px;
+  margin: 0 auto;
+}
+
+/* businesses */
