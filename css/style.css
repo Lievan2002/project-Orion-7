@@ -191,6 +191,7 @@
 .cases-card-wrap {
   justify-content: center;
   margin-top: 45px;
+  flex-wrap: wrap;
 }
 
 .cases-card-wrap:last-child {
