@@ -205,6 +205,11 @@
   transition: 0.3s;
 }
 
+.cases-card:nth-child(3),
+.cases-card:nth-child(4) {
+  margin-top: 28px;
+}
+
 .cases-card-logo-subtitle {
   padding-top: 30px;
   padding-left: 15px;
@@ -519,5 +524,100 @@
 @media screen and (max-width: 1500px) {
   .title-discover-card {
     font-size: 30px;
+  }
+
+  .subtitle-discover-card {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* header */
+
+  .header-title {
+    font-size: 90px;
+
+    max-width: 950px;
+  }
+
+  /* header */
+
+  /* numbers */
+
+  .numbers-card-title {
+    font-size: 40px;
+  }
+
+  .numbers-card-subtitle {
+    font-size: 22px;
+  }
+
+  /* numbers */
+
+  /* discover */
+  .title-discover-card {
+    font-size: 27px;
+    margin-right: auto;
+    max-width: 155px;
+  }
+
+  .subtitle-discover-card {
+    max-width: 435px;
+  }
+  /* discover */
+
+  /* cases */
+
+  /* cases */
+
+  /* businesses */
+
+  .businesses-img-text {
+    margin-left: 35px;
+  }
+
+  .businesses-img {
+    width: 110px;
+  }
+
+  /* businesses */
+
+  /* boost */
+
+  .boost-content {
+  }
+
+  .boost-title {
+    max-width: 450px;
+  }
+
+  .boost-subtitle {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .boost-btn-wrap {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  /* boost */
+
+  /* footer */
+  .footer-right-text {
+    margin-right: 70px;
+  }
+  /* footer */
+}
+
+@media screen and (max-width: 1234px) {
+  .cases-card:nth-child(2) {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1318px) {
+  .how-card-wrap {
+    justify-content: center;
   }
 }
