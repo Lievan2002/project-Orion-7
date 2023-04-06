@@ -389,3 +389,33 @@
 }
 
 /* how */
+
+/* boost */
+.boost {
+  margin-top: 105px;
+}
+
+.boost-content {
+  background-image: url(../assets/Images/boost-roket-bg.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.boost-title {
+  max-width: 530px;
+  padding-top: 93px;
+}
+
+.boost-subtitle {
+  padding-top: 19px;
+}
+
+.boost-btn-wrap {
+  padding-bottom: 93px;
+}
+
+.btn-boost {
+  margin-top: 30px;
+}
+/* boost */
