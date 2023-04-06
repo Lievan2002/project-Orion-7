@@ -53,6 +53,7 @@
 
 .f-size-30 {
   font-size: 30px;
+  line-height: 33px;
 }
 
 /* font-size */
@@ -93,4 +94,10 @@ a {
 
 .text-align-center {
   text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .f-size-25 {
+    font-size: 20px;
+  }
 }

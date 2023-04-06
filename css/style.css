@@ -48,7 +48,7 @@
 
 .text-hero {
   margin: 0 auto;
-  max-width: 825px;
+  max-width: 830px;
 }
 
 .subtitle-hero {
@@ -318,14 +318,27 @@
   justify-content: center;
 }
 
+.businesses-img-text {
+  margin-left: 90px;
+  text-align: center;
+}
+
+.businesses-img-text:first-child {
+  margin-left: 0;
+}
+
+.businesses-img {
+  width: 120px;
+}
+
 .businesses-subtitle {
+  display: inline-block;
   font-size: 18px;
   line-height: 140%;
   color: #131313;
   opacity: 0.8;
   background: rgba(213, 201, 201, 0.6);
   border-radius: 2px;
-  max-width: 170px;
   margin: 0 auto;
   text-align: center;
 }
@@ -501,3 +514,9 @@
 }
 
 /* footer */
+
+@media screen and (max-width: 1500px) {
+  .title-discover-card {
+    font-size: 30px;
+  }
+}
