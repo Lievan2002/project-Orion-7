@@ -30,11 +30,15 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 25px;
 }
 
 .container-how {
   max-width: 1321px;
+}
+
+.container-numbers {
+  max-width: 1230px;
 }
 
 /* container */
@@ -105,5 +109,50 @@ a {
 @media screen and (max-width: 1400px) {
   .f-size-60 {
     font-size: 45px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .f-size-60 {
+      font-size: 34px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .f-size-60 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .f-size-30 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .f-size-30 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    font-size: 31px;
+  }
+  .btn-orange {
+    font-size: 31px;
+  }
+
+  .f-size-60 {
+    font-size: 33px;
+  }
+
+  .f-size-25 {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 0 16px;
   }
 }

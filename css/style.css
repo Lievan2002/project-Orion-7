@@ -1,3 +1,7 @@
+.img-hero-sm {
+  display: none;
+}
+
 /* header */
 
 .header {
@@ -84,6 +88,7 @@
 
 .numbers-card-wrap {
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .numbers-card {
@@ -584,9 +589,6 @@
 
   /* boost */
 
-  .boost-content {
-  }
-
   .boost-title {
     max-width: 450px;
   }
@@ -620,4 +622,464 @@
   .how-card-wrap {
     justify-content: center;
   }
+}
+
+@media screen and (max-width: 1040px) {
+  .discover-card-wrap {
+    flex-wrap: wrap;
+  }
+
+  .discover-card:last-child {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* header */
+  .header-title {
+    font-size: 69px;
+  }
+  /* header */
+
+  /* hero */
+
+  .text-hero {
+    max-width: 500px;
+  }
+
+  .img-hero {
+    padding-left: 15px;
+    width: 170px;
+  }
+  /* hero */
+
+  /* numbers */
+
+  .subtitle-numbers {
+    max-width: 340px;
+  }
+
+  .img-numbers {
+    width: 45px;
+  }
+
+  .img-numbers-people {
+    width: 60px;
+  }
+
+  .numbers-card-title {
+    font-size: 25px;
+  }
+
+  .numbers-card-subtitle {
+    font-size: 15px;
+  }
+
+  /* numbers */
+
+  /* businesses */
+
+  .businesses-img {
+    width: 90px;
+  }
+
+  .businesses-subtitle {
+    font-size: 10px;
+  }
+
+  /* businesses */
+
+  /* how */
+
+  /* how */
+
+  /* boost */
+
+  .boost-title {
+    max-width: 340px;
+  }
+
+  /* boost */
+
+  /* footer */
+
+  .subtitle-foter-left {
+    font-size: 10px;
+    max-width: 150px;
+  }
+
+  .footer-right-text {
+    margin-right: 0;
+  }
+
+  .footer-right-title {
+    font-size: 15px;
+  }
+
+  .contact-foter {
+    font-size: 15px;
+  }
+
+  .terms-footer,
+  .privacy-footer {
+    font-size: 9px;
+  }
+
+  /* footer */
+}
+
+@media screen and (max-width: 935px) {
+  .discover-card:nth-child(2) {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 901px) {
+  .how-card:nth-child(2),
+  .how-card:nth-child(3) {
+    margin-top: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* header */
+  .header-title {
+    font-size: 50px;
+  }
+
+  .btn-header-position {
+    flex-wrap: wrap;
+  }
+  /* header */
+
+  /* hero */
+
+  .img-hero {
+    width: 135px;
+  }
+
+  /* hero */
+
+  /* numbers */
+
+  .numbers-card-title {
+    font-size: 20px;
+  }
+
+  .img-numbers {
+    width: 35px;
+  }
+
+  .img-numbers-people {
+    width: 45px;
+  }
+
+  .numbers-card {
+    margin-left: 30px;
+  }
+
+  /* numbers */
+
+  /* discover */
+
+  .discover-title {
+    max-width: 560px;
+  }
+
+  /* discover */
+
+  /* cases */
+
+  .cases-card-img {
+    width: 470px;
+  }
+
+  .cases-card-logo {
+    width: 110px;
+  }
+
+  .cases-card-subtitle {
+    font-size: 14px;
+  }
+
+  .cases-card-subtitle {
+    max-width: 330px;
+  }
+
+  .cases-card-title {
+    max-width: 400px;
+  }
+
+  .cases-card-body-text {
+    font-size: 30px;
+  }
+  /* cases */
+
+  /* boost */
+
+  .boost-title {
+    max-width: 240px;
+  }
+
+  /* boost */
+
+  /* footer */
+
+  .subtitle-foter-left {
+    font-size: 8px;
+    max-width: 115px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+  }
+
+  .footer-right-title {
+    font-size: 10px;
+  }
+
+  .contact-foter {
+    font-size: 10px;
+  }
+  .footer-right-contact {
+    max-width: 150px;
+  }
+
+  .terms-footer,
+  .privacy-footer {
+    font-size: 8px;
+  }
+
+  /* footer */
+}
+@media screen and (max-width: 576px) {
+  /* header */
+
+  .header-title {
+    font-size: 40px;
+  }
+  /* header */
+
+  /* hero */
+
+  .hero {
+    margin-top: 200px;
+  }
+
+  .subtitle-hero {
+    margin-top: 45px;
+  }
+
+  .img-hero-position {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+  }
+
+  .img-hero {
+    display: none;
+  }
+
+  .img-hero-sm {
+    display: block;
+    margin-top: 6px;
+  }
+  /* hero */
+
+  /* numders */
+
+  .title-numbers {
+    font-size: 30px;
+  }
+
+  .subtitle-numbers {
+    margin-bottom: 25px;
+    max-width: 270px;
+  }
+
+  .btn-numbers {
+    margin-top: 0;
+  }
+  /* numders */
+
+  .numbers {
+    margin-top: 184px;
+  }
+  /* numders */
+
+  /* discover */
+
+  .discover-card-wrap {
+    margin-top: 60px;
+  }
+
+  /* discover */
+
+  /* cases */
+
+  .cases-card-img {
+    width: 401px;
+  }
+
+  .cases-card-logo {
+    width: 90px;
+  }
+
+  .cases-card-subtitle {
+    max-width: 262px;
+    font-size: 11px;
+  }
+
+  .cases-card-title {
+    max-width: 367px;
+    padding-top: 17px;
+  }
+
+  .cases-card-body-text {
+    font-size: 23px;
+  }
+
+  .cases-card-body-width {
+    font-size: 30px;
+  }
+
+  .cases-card-body-wrap {
+    padding-top: 40px;
+  }
+  .cases-card-body-subtitile {
+    font-size: 13px;
+  }
+
+  .cases-card-body-symbiosis {
+    font-size: 10px;
+  }
+
+  .cases-card-logo-subtitle {
+    padding-top: 15px;
+  }
+
+  .first-child {
+    margin-right: 40px;
+  }
+
+  .last-child {
+    margin-right: 30px;
+  }
+
+  .card-body-symbiosis {
+    margin-right: 14px;
+  }
+
+  /* cases */
+}
+@media screen and (max-width: 480px) {
+  /* header */
+
+  .nav-link {
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 95px;
+  }
+
+  .header-title {
+    font-size: 30px;
+    max-width: 355px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .btn-header-position {
+    margin-top: 30px;
+  }
+  /* header */
+
+  /* hero */
+
+  .hero-title {
+    max-width: 253px;
+    margin: 0 auto;
+  }
+
+  .text-hero {
+    max-width: 343px;
+    margin-top: 10px;
+  }
+
+  .subtitle-hero {
+    font-size: 22px;
+  }
+
+  .numbers-card-subtitle {
+    font-size: 13px;
+  }
+
+  /* hero */
+
+  /* numbers */
+
+  .numbers-card .img-numbers {
+    width: 26px;
+    height: 24px;
+  }
+
+  /* .numbers-card {
+    width: 159px;
+    height: 29px;
+  } */
+  /* numbers */
+
+  /* discover */
+
+  .discover-title {
+    max-width: 343px;
+  }
+
+  .title-discover-card {
+    font-size: 24px;
+    line-height: 25px;
+    max-width: 118px;
+  }
+
+  .subtitle-discover-card {
+    font-size: 18px;
+    max-width: 315px;
+    padding: 21px 14px;
+  }
+  .discover-card-img {
+    width: 70px;
+  }
+
+  /* discover */
+
+  /* cases */
+
+  .cases-card-img {
+    width: 343px;
+  }
+
+  .cases-card-body-width {
+    max-width: 85px;
+  }
+
+  .cases-card-body-symbiosis {
+    font-size: 8px;
+    max-width: 115px;
+  }
+
+  .cases-card:nth-child(2),
+  .cases-card:nth-child(3),
+  .cases-card:nth-child(4) {
+    margin-top: 12px;
+  }
+
+  /* cases */
+
+  /* footer */
+
+  .footer-wrap {
+    flex-direction: column;
+  }
+
+  .footer-block-right {
+    flex-direction: column;
+  }
+  /* footer */
 }
