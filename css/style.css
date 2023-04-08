@@ -6,11 +6,7 @@
 
 .header {
   padding-top: 25px;
-  background: radial-gradient(
-    84.88% 84.88% at 50% 108.47%,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(180deg, #4a99e9 0%, rgba(74, 153, 233, 0) 100%);
 }
 
 .header-content {
@@ -53,6 +49,7 @@
 .text-hero {
   margin: 0 auto;
   max-width: 830px;
+  font-size: 25px;
 }
 
 .subtitle-hero {
@@ -77,6 +74,13 @@
 
 .numbers {
   margin-top: 225px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(61, 12, 226, 0.21349789915966388) 36%,
+    rgba(61, 12, 226, 0.20229341736694673) 64%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .subtitle-numbers {
@@ -94,12 +98,17 @@
 .numbers-card {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 2px;
-  margin-left: 50px;
+  display: inline-flex !important;
+  margin: 0 25px;
+  margin-top: 42px;
+}
 
-  margin-bottom: 40px;
+.img-numbers {
+  display: inline-flex;
 }
 
 .numbers-card-title {
+  display: inline-flex;
   font-size: 60px;
   line-height: 94px;
   text-align: center;
@@ -114,6 +123,7 @@
 }
 
 .numbers-card-subtitle {
+  display: inline-flex;
   font-size: 25px;
   line-height: 140%;
   text-align: center;
@@ -532,7 +542,11 @@
   }
 
   .subtitle-discover-card {
-    padding-right: 50px;
+    font-size: 25px;
+  }
+
+  .discover-title {
+    font-size: 60px;
   }
 }
 
@@ -642,6 +656,10 @@
   /* header */
 
   /* hero */
+
+  .hero-title {
+    font-size: 45px;
+  }
 
   .text-hero {
     max-width: 500px;
@@ -756,6 +774,9 @@
 
   .img-hero {
     width: 135px;
+  }
+  .text-hero {
+    font-size: 18px;
   }
 
   /* hero */
@@ -973,6 +994,13 @@
 @media screen and (max-width: 480px) {
   /* header */
 
+  .logo-heder {
+    width: 60px;
+  }
+  .header-content {
+    align-items: start;
+  }
+
   .nav-link {
     font-size: 13px;
     line-height: 18px;
@@ -980,10 +1008,10 @@
   }
 
   .header-title {
-    font-size: 30px;
+    font-size: 33px;
     max-width: 355px;
     line-height: 100%;
-    text-align: center;
+    margin-top: 110px;
   }
 
   .btn-header-position {
@@ -996,15 +1024,17 @@
   .hero-title {
     max-width: 253px;
     margin: 0 auto;
+    font-size: 36px;
   }
 
   .text-hero {
     max-width: 343px;
     margin-top: 10px;
+    font-size: 18px;
   }
 
   .subtitle-hero {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .numbers-card-subtitle {
@@ -1015,15 +1045,30 @@
 
   /* numbers */
 
-  .numbers-card .img-numbers {
-    width: 26px;
-    height: 24px;
+  .numbers-card-wrap {
+    justify-content: space-between;
   }
 
-  /* .numbers-card {
-    width: 159px;
-    height: 29px;
-  } */
+  .numbers-card {
+    margin-right: 25px;
+    margin-left: 0;
+  }
+
+  .numbers-card-title {
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .img-numbers-people {
+    width: 37px;
+  }
+  .numbers-card-subtitle {
+    padding-bottom: 20px;
+  }
+
+  .img-numbers {
+    width: 26px;
+  }
   /* numbers */
 
   /* discover */
@@ -1082,4 +1127,10 @@
     flex-direction: column;
   }
   /* footer */
+}
+
+@media screen and (max-width: 350px) {
+  /* header */
+
+  /* header */
 }
